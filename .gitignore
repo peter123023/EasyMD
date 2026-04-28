@@ -1,0 +1,34 @@
+legacy/
+node_modules/
+.DS_Store
+.turbo/
+.pnpm-store/
+dist/
+.env
+.npmrc
+apps/macos/
+Dockerfile
+info.md
+# Electron
+apps/electron/node_modules/
+apps/electron/dist/
+apps/electron/web-dist/
+apps/electron/release/
+apps/web/node_modules/
+apps/web/dist/
+apps/web/web-dist/
+apps/web/release/
+apps/server/node_modules/
+apps/server/dist/
+apps/server/web-dist/
+apps/server/release/
+
+packages/core/node_modules
+.tmp/
+
+# AI Agent files
+.agentdocs/
+.gemini/
+.claude/
+.trae/
+
