@@ -25,10 +25,11 @@
 
 ---
 
-## 📸 截图
+## 📸 界面
 
-![EasyMD 截图](.github/images/111.png)
+![EasyMD 界面](.github/images/111.png)
 ---
+
 ## ✨ 特性
 
 |     | 功能             | 说明                                                    |
@@ -214,11 +215,7 @@ EasyMD 内置了一套**色彩语义保全算法**，可在编辑器中预览微
 
 ---
 
-## 📸 截图
 
-![EasyMD 截图](.github/assets/screenshot.png)
-
----
 
 ## 🤝 贡献指南
 
