@@ -76,34 +76,14 @@
 
 ### 在线使用
 
-直接访问 **[edit.easymd.app](https://edit.easymd.app)** 即可开始写作，无需安装，同样支持纯本地存储。
 
 ### 桌面版下载
 
-前往 [Releases](https://github.com/tenngoxars/EasyMD/releases) 下载对应平台安装包：
 
-- **macOS**: `.dmg`（Intel 版）/ `-arm64.dmg`（Apple Silicon 版）
-- **Windows**: `.exe`
-- **Linux**: `.AppImage`
 
-> ⚠️ **macOS 用户注意**：首次打开时如提示"应用已损坏"，请在终端执行：
-> ```bash
-> xattr -cr /Applications/EasyMD.app
-> ```
-
-> ⚠️ **Windows 用户注意**：如 SmartScreen 提示"未知发布者"，点击「更多信息」→「仍要运行」
 
 ### Docker 部署
 
-```bash
-# 构建镜像
-docker build -t easymd .
-
-# 运行容器
-docker run -d -p 8080:80 --name easymd easymd
-```
-
-访问 `http://localhost:8080` 即可使用。
 
 ---
 
@@ -191,10 +171,8 @@ EasyMD 内置了一套**色彩语义保全算法**，可在编辑器中预览微
 
 该算法基于微信官方开源的核心算法迁移并优化，旨在保证高性能 CSS 转换的同时提供最接近官方的渲染效果。
 
-- 智能识别不同元素类型，分别优化
-- HSL 色彩空间计算，确保视觉一致性
 
-> 这可能是目前市面上除官方外唯一针对微信公众号深色模式预览的开源解决方案。
+
 
 ### 多图床支持
 
@@ -239,7 +217,7 @@ EasyMD 内置了一套**色彩语义保全算法**，可在编辑器中预览微
 
 - **Issues**: 遇到问题？请提交 [Issue](https://github.com/tenngoxars/EasyMD/issues)
 - **讨论**: 想要新功能？来 [Discussions](https://github.com/tenngoxars/EasyMD/discussions) 告诉我们
-- **邮件**: 其他问题？发送邮件至 support@easymd.app
+
 
 ---
 
