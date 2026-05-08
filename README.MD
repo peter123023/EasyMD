@@ -221,11 +221,6 @@ EasyMD 内置了一套**色彩语义保全算法**，可在编辑器中预览微
 
 ---
 
-## 📄 开源协议
-
-[MIT](LICENSE) © EasyMD Team
-
----
 
 ## ⭐ Star History
 
@@ -233,6 +228,4 @@ EasyMD 内置了一套**色彩语义保全算法**，可在编辑器中预览微
 
 ---
 
-<p align="center">
-  Made with ❤️ by EasyMD Team
-</p>
+
