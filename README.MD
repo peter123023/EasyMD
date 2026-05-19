@@ -5,15 +5,10 @@
 </p>
 
 <p align="center">
-  告别复杂工具，专注于内容创作。Markdown 写作，一键复制到公众号。
+  告别复杂工具，专注于内容创作。易用 Markdown 写作，一键复制到公众号。
 </p>
 
-<p align="center">
-  <a href="https://easymd.app">🌐 官网</a> •
-  <a href="https://edit.easymd.app">✏️ 在线使用</a> •
-  <a href="https://easymd.app/docs">📖 文档</a> •
-  <a href="https://github.com/tenngoxars/EasyMD/releases">📦 下载桌面版</a>
-</p>
+
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-4CAF50?style=flat-square" alt="License: MIT" /></a>
@@ -74,15 +69,6 @@
 
 ## 🚀 快速开始
 
-### 在线使用
-
-
-### 桌面版下载
-
-
-
-
-### Docker 部署
 
 
 ---
@@ -137,22 +123,6 @@ pnpm format
 
 ---
 
-## 📁 项目结构
-
-```
-EasyMD/
-├── apps/
-│   ├── web/          # React + Vite 前端应用
-│   ├── electron/     # Electron 桌面端应用
-│   └── server/       # NestJS 图片上传服务
-├── packages/
-│   └── core/         # 核心包：Markdown 解析 / 主题 / 工具函数
-├── templates/        # 主题 CSS 模板
-├── scripts/          # 构建和开发脚本
-├── turbo.json        # Turborepo 配置
-├── pnpm-workspace.yaml  # pnpm 工作区配置
-└── package.json      # 根包配置
-```
 
 ### 目录说明
 
@@ -195,15 +165,7 @@ EasyMD 内置了一套**色彩语义保全算法**，可在编辑器中预览微
 
 
 
-## 🤝 贡献指南
 
-我们欢迎任何形式的贡献！
-
-1. Fork 本仓库
-2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开一个 Pull Request
 
 ### 开发规范
 
@@ -222,10 +184,5 @@ EasyMD 内置了一套**色彩语义保全算法**，可在编辑器中预览微
 ---
 
 
-## ⭐ Star History
-
-如果这个项目对你有帮助，请考虑给我们一个 Star ⭐️
-
----
 
 
